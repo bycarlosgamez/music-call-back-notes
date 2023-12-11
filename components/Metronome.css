@@ -34,12 +34,14 @@
 /* input range goes here */
 .slider {
   -webkit-appearance: none;
+  appearance: none;
   background-color: transparent;
   width: 70%;
 }
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
+  appearance: none;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -49,6 +51,7 @@
 
 .slider::-moz-range-thumb {
   -webkit-appearance: none;
+  appearance: none;
   width: 16px;
   height: 16px;
   border-radius: 50%;
